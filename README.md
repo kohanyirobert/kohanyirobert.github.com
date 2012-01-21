@@ -1,5 +1,4 @@
 # About
-[Personal][1] [GitHub page][2].
+Personal [GitHub page][1].
 
-[1]: http://kohanyirobert.github.com
-[2]: http://pages.github.com
+[1]: http://pages.github.com
