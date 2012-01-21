@@ -1,0 +1,63 @@
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
+h1 {
+  font-family: "Ubuntu Condensed", sans-serif;
+}
+
+ul {
+  list-style-position: inside;
+  text-align: left;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.slim {
+  margin: 0;
+  padding: 0;
+}
+
+.top {
+  font-size: 5.25em;
+}
+
+.bottom {
+  font-size: 1.25em;
+}
+
+.center {
+  text-align: center;
+}
+
+.float {
+  vertical-align:text-top;
+  display: inline-block;
+}
+
+.green {
+  color: #7d7;
+}
+
+.blue {
+  color: #7af;
+}
+
+.orange {
+  color: #fa3;
+}
+
+.purple {
+  color: #c3c;
+}
+
+.red {
+  color: #f55;
+}
