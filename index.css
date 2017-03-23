@@ -1,49 +1,17 @@
-* {
-  white-space: nowrap;
-}
-
-body {
-  font-family: "Ubuntu", sans-serif;
-}
-
-h1 {
-  font-family: "Ubuntu Condensed", sans-serif;
-}
-
-ul {
-  list-style-position: inside;
-  text-align: left;
+*, *:before, *:after {
+  box-sizing: border-box;
 }
 
 a {
   color: inherit;
+  font-family: inherit;
+  font-size: inherit;
   text-decoration: none;
+  text-align: center;
 }
 
 a:hover {
   text-decoration: underline;
-}
-
-.slim {
-  margin: 0;
-  padding: 0;
-}
-
-.top {
-  font-size: 5.25em;
-}
-
-.bottom {
-  font-size: 1.25em;
-}
-
-.center {
-  text-align: center;
-}
-
-.float {
-  vertical-align:text-top;
-  display: inline-block;
 }
 
 .green {
@@ -64,4 +32,20 @@ a:hover {
 
 .red {
   color: #f55;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.item {
+  font-family: "Ubuntu Condensed", sans-serif;
+  font-size: 8vmin;
+}
+
+.item:first-child {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 20vmin;
 }
