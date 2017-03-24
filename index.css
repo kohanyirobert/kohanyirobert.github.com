@@ -42,10 +42,10 @@ a:hover {
 
 .item {
   font-family: "Ubuntu Condensed", sans-serif;
-  font-size: 8vmin;
+  font-size: 7vmin;
 }
 
 .item:first-child {
   font-family: "Ubuntu", sans-serif;
-  font-size: 20vmin;
+  font-size: 19vmin;
 }
